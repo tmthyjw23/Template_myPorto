@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(99, 102, 241, 0.06), transparent 28%),
+    linear-gradient(to bottom, #fafaf9, #ffffff 24%);
+}
+
+::selection {
+  background: #111111;
+  color: #ffffff;
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, #111111 0%, #6366f1 50%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.mesh-orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(70px);
+  opacity: 0.16;
+  animation: drift 18s ease-in-out infinite;
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(18px);
+  border-color: rgba(99, 102, 241, 0.14);
+  box-shadow:
+    0 12px 40px rgba(17, 17, 17, 0.08),
+    0 0 0 1px rgba(255, 255, 255, 0.55);
+}
