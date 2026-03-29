@@ -715,14 +715,14 @@ export function PortfolioPage() {
             </p>
           </div>
           <div className="flex items-center gap-5 text-sm text-smoke">
-            <Link href="#" className="transition hover:text-indigoelectric">
+            <Link href="https://www.linkedin.com/in/timothy-jordy-weley-115260349/" className="transition hover:text-indigoelectric">
               LinkedIn
             </Link>
-            <Link href="#" className="transition hover:text-indigoelectric">
+            <Link href="https://github.com/tmthyjw23" className="transition hover:text-indigoelectric">
               GitHub
             </Link>
-            <Link href="#" className="transition hover:text-indigoelectric">
-              X / Twitter
+            <Link href="https://www.instagram.com/tmthyjw_/" className="transition hover:text-indigoelectric">
+              Instagram
             </Link>
           </div>
         </div>
